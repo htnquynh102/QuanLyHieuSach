@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+  .card{
+      background-color: #4B544D;
+      padding:20px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 8px 5px 5px #4B544D;
+  }
+
+  #header{
+    height: 140px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #logo{
+    margin-left: 30px;
+    display: flex;
+  }
+
+      
+    #main-content{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 140px;
+    }
+
+/**************************  table  *********************************/
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 50px;
+  }
+
+  td,
+  th {
+    padding: 10px 16px;
+    text-align: center;
+  }
+
+  th {
+    background-color: rgb(75, 75, 75);
+    color: #fafafa;
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: bold;
+  }
+
+  tr {
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  tr:nth-child(even) {
+    background-color: #eff4f0;
+  }
+
+
+/************************ login and sign up styling  ******************************/
+
+
+.btn-danger{
+  background-color: rgb(255, 255, 255);
+  color: #851717;
+}
+.btn-primary{
+  background-color: rgb(255, 255, 255);
+  color: #2DA2A6;
+  border-color: #2DA2A6;
+  
+}
+.btn-secondary{
+  background-color: #2DA2A6;
+  margin-bottom: 20px;
+}
+.btn-primary:hover{
+  background-color: #2DA2A6;
+
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+ 
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  background-color: #4B544D;
+  padding: 16px 0;
+  text-decoration: none;
+  height: 90px;
+  font-size: 26px;
+  width: 210px;
+
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  text-decoration: none;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 30px;
+  color: #851717;
+  font-weight: 600;
+}

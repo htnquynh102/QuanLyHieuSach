@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Orders>
+    <orders>
+        <order_id >1</order_id >
+        <user_id >2</user_id>
+        <delivered_to>Nhu Quynh</delivered_to>
+        <phone_no>9802234675</phone_no>
+        <deliver_address>HoaSon</deliver_address>
+        <pay_method>Thẻ</pay_method>
+        <order_status>1</order_status>
+    </orders>
+    <orders>
+        <order_id >2</order_id >
+        <user_id >2</user_id>
+        <delivered_to>Hoang Quynh</delivered_to>
+        <phone_no>9802234675</phone_no>
+        <deliver_address>HoaSon</deliver_address>
+        <pay_method>Thẻ</pay_method>
+        <order_status>1</order_status>
+    </orders>
+    <orders>
+        <order_id >3</order_id >
+        <user_id >2</user_id>
+        <delivered_to>Quynh Nhu</delivered_to>
+        <phone_no>980098322</phone_no>
+        <deliver_address>HoaSon</deliver_address>
+        <pay_method>Tiền mặt</pay_method>
+        <order_status>0</order_status>
+    </orders>
+</Orders>
